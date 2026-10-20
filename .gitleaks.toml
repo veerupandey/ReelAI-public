@@ -1,0 +1,7 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Non-secret browser storage identifiers"
+regexTarget = "match"
+regexes = ['''reelai\.llm\.(apiKeys|baseUrls|modelOverrides|preferredPlanner)\.v1''']

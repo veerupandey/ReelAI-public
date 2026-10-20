@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReelAI Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Inter:wght@400;800&family=Merriweather:ital,wght@0,700;1,400&family=Montserrat:wght@800;900&family=Oswald:wght@700&family=Playfair+Display:ital,wght@0,700;1,700&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              insta: {
+                start: '#f09433',
+                mid: '#e6683c',
+                end: '#dc2743',
+                purple: '#bc1888',
+              },
+              dark: {
+                bg: '#0F172A',
+                card: '#1E293B',
+                border: '#334155'
+              },
+              studio: {
+                canvas: '#0c1a20',
+                bg: '#12262f',
+                surface: '#183440',
+                panel: '#1f4250',
+                border: '#2f5a68',
+                accent: '#2eb8a6',
+                'accent-strong': '#1f9a8a',
+                warm: '#e2a356',
+                mist: '#9fc0c8',
+                ink: '#e8f2f4'
+              }
+            },
+            animation: {
+              'gradient-x': 'gradient-x 15s ease infinite',
+            },
+            keyframes: {
+              'gradient-x': {
+                '0%, 100%': {
+                  'background-size': '200% 200%',
+                  'background-position': 'left center',
+                },
+                '50%': {
+                  'background-size': '200% 200%',
+                  'background-position': 'right center',
+                },
+              },
+              'shrinkX': {
+                '0%': { width: '100%' },
+                '100%': { width: '0%' }
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Montserrat', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+              mono: ['Roboto Mono', 'monospace'],
+              comic: ['Bangers', 'cursive'],
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-color: #0F172A;
+        color: white;
+        font-family: 'Inter', sans-serif;
+      }
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #1E293B;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #475569;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #64748B;
+      }
+
+      /* AI Image Studio — photo-lab atmosphere (scoped) */
+      .image-studio-root {
+        --studio-canvas: #0c1a20;
+        --studio-glow-teal: rgba(46, 184, 166, 0.16);
+        --studio-glow-warm: rgba(226, 163, 86, 0.10);
+        color: #e8f2f4;
+        background-color: var(--studio-canvas);
+        background-image:
+          radial-gradient(ellipse 90% 55% at 12% -10%, var(--studio-glow-teal), transparent 55%),
+          radial-gradient(ellipse 70% 45% at 92% 8%, var(--studio-glow-warm), transparent 50%),
+          radial-gradient(ellipse 60% 40% at 50% 110%, rgba(31, 66, 80, 0.55), transparent 55%),
+          linear-gradient(165deg, #0c1a20 0%, #12262f 48%, #0e1f27 100%);
+        background-attachment: local;
+      }
+      .image-studio-root ::-webkit-scrollbar-track {
+        background: #183440;
+      }
+      .image-studio-root ::-webkit-scrollbar-thumb {
+        background: #2f5a68;
+      }
+      .image-studio-root ::-webkit-scrollbar-thumb:hover {
+        background: #3d7382;
+      }
+    </style>
+
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

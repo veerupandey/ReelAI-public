@@ -1,0 +1,34 @@
+{
+  "id": "recreate-reference-frames-v1",
+  "title": "Recreate reference reel structure for brand",
+  "prompt": "Recreate this reference video for my brand — match beats and pacing, replace product with ours.",
+  "adFormat": "stitched_video",
+  "platform": "instagram_reels",
+  "referenceUploadCount": 5,
+  "expectedIntent": "recreate_reference_video",
+  "expectedGoalItems": [
+    "reference_analyzed",
+    "brand_product_locked",
+    "scenes_planned",
+    "stills_approved",
+    "motion_done",
+    "stitched",
+    "critics_pass",
+    "delivered"
+  ],
+  "expectedPlanProducers": [
+    "reference_ingest",
+    "structure_analysis",
+    "stills",
+    "wan_i2v",
+    "ffmpeg_assemble"
+  ],
+  "stopRules": {
+    "successWhen": "all_required_goal_items_pass",
+    "escalateOn": ["max_steps", "budget", "no_progress"]
+  },
+  "notes": [
+    "Golden case for loop runtime — classify → goal card → recreate path.",
+    "Execution uses existing AutonomousAgent producers after loop bootstrap."
+  ]
+}
