@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/teamspace/studios/this_studio/reelai-sessions"],
+      "description": "Read/write files in the agent workspace (reelai-sessions)",
+      "optional": true
+    },
+    "brave-search": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-brave-search"],
+      "env": { "BRAVE_API_KEY": "" },
+      "description": "Web search via Brave Search API — set BRAVE_API_KEY in env",
+      "optional": true
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp"],
+      "description": "Playwright headless browser — navigate, click, type, snapshot (accessibility tree) and screenshot",
+      "optional": true
+    }
+  }
+}

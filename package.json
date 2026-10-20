@@ -1,0 +1,35 @@
+{
+  "name": "reelai-studio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "agent:server": "node scripts/agent-shell-server.cjs",
+    "dev:agent": "concurrently \"npm run dev\" \"npm run agent:server\"",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "smoke:live-motion": "HARNESS_LIVE=1 node scripts/smoke-live-motion-wan.mjs"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "jspdf": "^4.2.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.2.0",
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "concurrently": "^9.2.1",
+    "fast-check": "^3.23.2",
+    "jsdom": "^26.0.0",
+    "playwright": "^1.61.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0",
+    "vitest": "^3.0.5"
+  }
+}
