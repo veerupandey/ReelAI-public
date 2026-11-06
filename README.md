@@ -27,23 +27,14 @@ ReelAI connects research, scripting, AI visuals, voice, music, review, and expor
 
 ## See ReelAI in action
 
-<p align="center">
-  <a href="https://github.com/veerupandey/ReelAI-public/releases/tag/demo-assets">
-    <img src="docs/demo/reelai-workflow-30s-preview.jpg" alt="ReelAI workflow demo — click to watch" width="960" />
-  </a>
-</p>
+Watch the 30-second workflow walkthrough, featuring Kageha matcha product content. Press play below.
+
+https://github.com/user-attachments/assets/8b17fb33-4861-4ee9-83f0-ce9f3cf21275
 
 <p align="center">
-  <a href="https://github.com/veerupandey/ReelAI-public/releases/download/demo-assets/reelai-workflow-30s-clean.mp4"><strong>▶ Get the 30-second workflow demo</strong></a><br />
-  A walkthrough of the creative workflow, featuring Kageha matcha product content.
-</p>
-
-<p align="center">
-  <sub>30 seconds · 1080p · MP4. Click the preview for the demo release, or the link above to download the video.</sub>
-</p>
-
-<p align="center">
-  <a href="https://github.com/veerupandey/ReelAI-public/releases/download/demo-assets/kageha-matcha-reel.mp4">Download the 15-second Kageha matcha reel →</a>
+  <sub>30 seconds · 1080p · Plays directly in this README</sub><br />
+  <a href="https://github.com/veerupandey/ReelAI-public/releases/download/demo-assets/reelai-workflow-30s-clean.mp4">Download workflow video</a> ·
+  <a href="https://github.com/veerupandey/ReelAI-public/releases/download/demo-assets/kageha-matcha-reel.mp4">Download the 15-second matcha reel</a>
 </p>
 
 ---
