@@ -1,16 +1,50 @@
-# ReelAI Studio
+<p align="center">
+  <img src="docs/demo/reelai-banner.svg" alt="ReelAI Studio — from creative brief to social-ready content" width="100%" />
+</p>
 
-**Launch viral Instagram content in minutes.**
+<h1 align="center">ReelAI Studio</h1>
 
-ReelAI Studio is an AI-native creative workspace for Instagram Reels, carousels, and brand ads. It connects research, scripting, image generation, voice, music, review, and export — so creators and brands can go from idea to post-ready assets without hopping between tools.
+<p align="center">
+  <strong>Your creative workflow, from first idea to final frame.</strong><br />
+  An AI creative workspace for Instagram Reels, carousels, and brand ads.
+</p>
 
-Built with React, Vite, and Google Gemini.
+<p align="center">
+  <a href="#see-reelai-in-action">Watch the demo</a> ·
+  <a href="#what-you-can-build">Explore the workflows</a> ·
+  <a href="#quick-start">Run locally</a> ·
+  <a href="#system-architecture">Architecture</a>
+</p>
 
-## Demo
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-149eca?style=flat-square" alt="React 19" />
+  <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Vite-6-646cff?style=flat-square" alt="Vite 6" />
+  <img src="https://img.shields.io/badge/AI-Google_Gemini-8e75b2?style=flat-square" alt="Google Gemini" />
+</p>
 
-[![Watch the Kageha matcha reel](docs/demo/kageha-matcha-preview.jpg)](https://github.com/veerupandey/ReelAI-public/blob/main/docs/demo/kageha-matcha-reel.mp4)
+ReelAI connects research, scripting, AI visuals, voice, music, review, and export in one workspace. Bring a topic, a product, your own media, or a song, then develop it into content with editable scenes and approval checkpoints.
 
-[Watch the 15-second reel](https://github.com/veerupandey/ReelAI-public/blob/main/docs/demo/kageha-matcha-reel.mp4) made with ReelAI's generated Kageha matcha clips.
+## See ReelAI in action
+
+<p align="center">
+  <a href="https://github.com/veerupandey/ReelAI-public/blob/main/docs/demo/reelai-workflow-30s-clean.mp4">
+    <img src="docs/demo/reelai-workflow-30s-preview.jpg" alt="ReelAI workflow demo — click to watch" width="960" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/veerupandey/ReelAI-public/blob/main/docs/demo/reelai-workflow-30s-clean.mp4"><strong>▶ Watch the 30-second workflow demo</strong></a><br />
+  A walkthrough of the creative workflow, featuring Kageha matcha product content.
+</p>
+
+<p align="center">
+  <sub>Click the preview above to open the full-resolution video on GitHub.</sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/veerupandey/ReelAI-public/blob/main/docs/demo/kageha-matcha-reel.mp4">See an additional generated reel →</a>
+</p>
 
 ---
 
