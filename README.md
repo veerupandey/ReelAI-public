@@ -33,8 +33,7 @@ https://github.com/user-attachments/assets/8b17fb33-4861-4ee9-83f0-ce9f3cf21275
 
 <p align="center">
   <sub>30 seconds · 1080p · Plays directly in this README</sub><br />
-  <a href="https://github.com/veerupandey/ReelAI-public/releases/download/demo-assets/reelai-workflow-30s-clean.mp4">Download workflow video</a> ·
-  <a href="https://github.com/veerupandey/ReelAI-public/releases/download/demo-assets/kageha-matcha-reel.mp4">Download the 15-second matcha reel</a>
+  <a href="https://github.com/veerupandey/ReelAI-public/releases/download/demo-assets/reelai-workflow-30s-clean.mp4">Download workflow video</a>
 </p>
 
 ---
